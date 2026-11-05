@@ -1,0 +1,11 @@
+@FieldPin_HostAddress = http://localhost:5290
+
+POST {{FieldPin_HostAddress}}/api/Auth/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "<password>"
+}
+
+###
